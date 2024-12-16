@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    overflow-x: hidden;
+}
+
+.cabecera{
+    background: rgb(0, 128, 0);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    position: sticky;
+    width: 100%;
+}
+
+.cabecera td{
+    padding: 10px;
+}
+
+.logo{
+    height: auto;
+    width: 250px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 200px;
+}
+
+#buscador{
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    border: 1px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.trbuscar{
+    width: 100%;
+}
+
+.marquesina{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+    position: sticky;
+}
+
+.menu{
+    background: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    height: 5em;
+    position: sticky;
+    width: 100%;
+}
+
+.encabezado{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: block;
+}
+
+.conjunto{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; 
+}
+
+.contenedor{
+    display: inline-block;
+    margin: 10px; 
+    text-align: center;
+}
+
+.contenedor img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+    height: auto;
+}
+
+.contenedor p{
+    margin-top: 10px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+table{
+    width: 100%;
+}
+
+.cuerpo{
+    text-align: center;
+    height: 75em;
+}
+
+.masvendido{
+    width: 100%;
+    text-align: center;
+}
+
+.masvendido td{
+    padding: 10px;
+}
+
+.masvendido img{
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.pie{
+    background: rgb(1, 81, 1);
+    padding-bottom: 20px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+}
+
+.form-grupo{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-grupo label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registro{
+    height: 50em;
+    text-align: center;
+}
+
+.comidapreparada{
+    width: 100%;
+    text-align: center;
+    height: 30em;
+}
+
+.comidapreparada td{
+    padding: 10px;
+}
+
+.comidapreparada img{
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.garbanzos{
+    text-align: center;
+}
+
+.garbanzos td{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.paella{
+    text-align: center;
+}
+
+.paella td{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.aceite-algas{
+    text-align: center;
+}
+
+.aceite-algas td{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.aceite-uva{
+    text-align: center;
+}
+
+.aceite-uva td{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.boton{
+    background-color: rgb(3, 173, 3);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(2, 86, 2);
+}
+
+.carrito-compra{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.carrito-compra h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carrito-compra table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.carrito-compra td img{
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+}
+
+.caja1{
+    width: 220px;
+    height: 200px;
+    background: rgb(133, 125, 241);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caja2{
+    width: 220px;
+    height: 200px;
+    background: rgb(241, 129, 217);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.caja3{
+    width: 220px;
+    height: 200px;
+    background: rgb(88, 31, 243);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+
+.caja4{
+    width: 220px;
+    height: 200px;
+    background: rgb(133, 125, 241);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caja5{
+    width: 220px;
+    height: 200px;
+    background: rgb(241, 129, 217);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.caja6{
+    width: 220px;
+    height: 200px;
+    background: rgb(88, 31, 243);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.informacion-tienda{
+    position: relative;
+    width: 100%;
+    height: 500em;
+    border: 1px solid #000;
+    position: fixed;
+
+}
+
+.tarjetas{
+    float: left;
+    width: 100%;
+}
+
+.tarjeta1{
+    width: 250px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 15px;
+    float: left;
+
+}
+
+.imagen1{
+    width: 100%;
+}
+
+
+.tarjeta2{
+    width: 250px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 15px;
+    float: right;
+}
+
+
+.imagen2{
+    width: 20%;
+
+}
+
+.tarjeta3{
+    width: 250px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 15px;
+}
+
+.imagen3{
+    width: 95%;
+}
